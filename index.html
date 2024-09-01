@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div style="opacity:1" class="nav-option">
+                    <i class="fas fa-home"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass button"></i>
+                    <a class="button" href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-options nav-option">
+                        <img class="button" src="./assets/library_icon.png">
+                        <a class="button" href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus button"></i>
+                        <i class="fa-solid fa-arrow-right button"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <p class="box-p1">Create your first playlist</p>
+                    <p class="box-p2">It's easy, we'll help you</p>
+                    <button class="badge button">Create playlist</button>
+                </div>
+                <div class="lib-box">
+                    <p class="box-p1">Let's find some podcasts to follow</p>
+                    <p class="box-p2">We'll keep you updated on new episodes</p>
+                    <button class="button badge">Browse Podcasts</button>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./assets/backward_icon.png " class="button">
+                <img src="./assets/forward_icon.png" class="hide button">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide button">Explore Premium</button>
+                    <button class="badge nav-item dark-badge button"><i class="fa-regular fa-circle-down install"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item button"></i>
+                </div>    
+            </div>
+                <h2>Recently Played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img class="card-img" src="./assets/card1img.jpeg" alt="Card 1">
+                        <p class="card-title">Top -50 Global
+                        </p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+            </div>
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img class="card-img" src="./assets/card2img.jpeg" alt="Card 2">
+                    <p class="card-title">Mahiye Jinna Sona
+                    </p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+            </div>
+                <div class="card">
+                    <img class="card-img" src="./assets/card3img.jpeg" alt="Card 3">
+                    <p class="card-title">Mere Paas Tum Ho
+                    </p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+            </div>
+            <div class="card">
+                <img class="card-img" src="./assets/card4img.jpeg" alt="Card 4">
+                <p class="card-title">Alter Ego Naa Ready
+                </p>
+                <p class="card-info">Your daily updates of the most played...</p>
+        </div>
+        <div class="card">
+            <img class="card-img" src="./assets/card2img.jpeg" alt="Card 5">
+            <p class="card-title">Mahiye Jinna Sona
+            </p>
+            <p class="card-info">Your daily updates of the most played...</p>
+    </div>
+    <div class="card">
+        <img class="card-img" src="./assets/card3img.jpeg" alt="Card 6">
+        <p class="card-title">Mere Paas Tum Ho
+        </p>
+        <p class="card-info">Your daily updates of the most played...</p>
+</div>
+        </div>
+        <h2>Featured Charts</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img class="card-img" src="./assets/card5img.jpeg" alt="Card 5">
+                <p class="card-title">Top Songs Global
+                </p>
+                <p class="card-info">Your daily updates of the most played...</p>
+        </div>
+        <div class="card">
+            <img class="card-img" src="./assets/card6img.jpeg" alt="Card 6">
+            <p class="card-title">Top Songs India
+            </p>
+            <p class="card-info">Your daily updates of the most played...</p>
+    </div>
+    <div class="card">
+        <img class="card-img" src="./assets/card1img.jpeg" alt="Card 1">
+        <p class="card-title">Top -50 Global
+        </p>
+        <p class="card-info">Your daily updates of the most played...</p>
+</div>
+        </div>
+        <div class="footer">
+            <div class="line">
+                
+            </div>
+        </div>
+        </div>
+        <div class="music-player">  
+            <div class="album">
+                <img src="./assets/album.jfif" class="album-img">
+                <div class="album-info">
+                    <div class="song">Tum Hi Ho</div>
+                    <div class="artist">Mithoon,Arjit Singh</div>
+                </div>
+                <i class="fa fa-thin fa-circle-plus button"></i>
+            </div>
+            <input type="range" min="0" max="100" step="1" class="new-progress-bar">
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" class="player-control-icon button">
+                    <img src="./assets/player_icon2.png" class="player-control-icon button">
+                    <img src="./assets/player_icon3.png" class="player-control-icon button play" style="opacity:1;height:2rem">
+                    <img src="./assets/player_icon4.png" class="player-control-icon button">
+                    <img src="./assets/player_icon5.png" class="player-control-icon button">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" step="1" class="progress-bar">
+                    <span class="tot-time">04:22</span>
+                </div>
+            </div>
+            <div class="controls">
+                <i class="fa-solid fa-clapperboard" class="button"></i>
+                <img src="./assets/mike.png" class="button">
+                <i class="fa-solid fa-bars" class="button"></i>
+                <img src="./assets/connect.jpg" class="button">
+                <i class="fa-solid fa-volume-high" class="button"></i>
+                <input type="range" min="0" max="100" step="1" class="volume-range">
+                <img src="./assets/miniplayer.jpg" class="button">
+                <i class="fa-solid fa-up-right-and-down-left-from-center button"></i>
+            </div>
+    </div>
+    <div class="small-nav">
+        <div style="opacity:1" class="small-nav-option">
+            <i class="fas fa-home"></i>
+            <a href="#">Home</a>
+        </div>
+        <div class="small-nav-option">
+            <i class="fa-solid fa-magnifying-glass button"></i>
+            <a class="button" href="#">Search</a>
+        </div>
+    </div>
+</body>
+</html>
